@@ -1,0 +1,42 @@
+<script id="dataLayer-common">
+  window.dataLayer = window.dataLayer || [];
+  window.sgdAnalytics = {
+    customerId: '{{customer.id}}',
+    customerEmail: '{{customer.email}}',
+    pageType: '{{request.page_type}}'
+  };
+  
+{% if request.page_type == "product" %}
+  sgdAnalytics.product = {
+    price: '{{product.selected_or_first_available_variant.price | money_without_currency}}',
+    sku: '{{product.selected_or_first_available_variant.sku}}',
+    inventory_quantity: {{ product.selected_or_first_available_variant.inventory_quantity }},
+    product: {{product | json}},
+    firstAvailableVariant: {{  product.selected_or_first_available_variant | json }}
+  }
+{% elsif request.page_type == "cart" %}
+  sgdAnalytics.cartItems = [];
+  {% for line_item in cart.items %}
+    sgdAnalytics.cartItems.push({
+      linePrice: '{{ line_item.final_line_price | money_without_currency}}',
+      sku: '{{ line_item.sku }}',
+      quantity: '{{ line_item.quantity }}',
+    });
+  {% endfor %}
+  sgdAnalytics.cart = {{cart | json}};
+{% endif %}
+
+!function(){"use strict";var e=function e(t,n){document.querySelectorAll(t).length<t.length?setTimeout(e.bind(null,t,n),50):n()};var t="thrasio-dl--tracked";!function(e,t){void 0===t&&(t={});var n=t.insertAt;if(e&&"undefined"!=typeof document){var a=document.head||document.getElementsByTagName("head")[0],o=document.createElement("style");o.type="text/css","top"===n&&a.firstChild?a.insertBefore(o,a.firstChild):a.appendChild(o),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(document.createTextNode(e))}}(".thrasio-dl--tracked{box-sizing:inherit}");var n,a=function(e,n,a){e&&(e.classList.contains(t)||(e.addEventListener(n,a),e.classList.add(t)))},o=function(e){arguments[0].eventType="thrasio-dl",window.dataLayer.push.apply(window.dataLayer,arguments),window.dataLayer.push({event:"flush dataLayer",eventCategory:void 0,eventLabel:void 0,eventValue:void 0,ecommerce:void 0,attributes:void 0,eventType:void 0})},i=function(){document.querySelectorAll("[dl-event-category]").forEach((function(e){var t=e.getAttribute("dl-event-category"),n=e.getAttribute("dl-event-name"),i=e.getAttribute("dl-event-label");!function(e,t,n,i,d){a(e,"click",(function(){var e={event:t,eventCategory:n,eventLabel:i};d&&(e.attributes=d),o(e)}))}(e,n,t,i)}))};window.dlPush=o,n=function(){i(),o({event:"view page",eventCategory:"all pages",eventLabel:window.location.pathname}),e([".needsclick.klaviyo-form"],(function(){a(document.querySelector(".needsclick.klaviyo-form button"),"click",(function(){var e=document.querySelector('input[aria-label="First Name"]'),t=document.querySelector('input[aria-label="Email Address"]');o({event:"submit form",eventCategory:"discount popup",eventLabel:"get 10% of discount popup",attributes:{firstName:e.value,email:t.value}})}))})),e([".signup-form__button"],(function(){a(document.querySelector("#footer_newsletter_signup"),"submit",(function(){var e=document.querySelector(".signup-form__email").value;o({event:"click sign up",eventCategory:"footer",eventLabel:e})}))}))},"loading"!==document.readyState?n():document.addEventListener?document.addEventListener("DOMContentLoaded",n):document.attachEvent("onreadystatechange",(function(){"loading"!==document.readyState&&n()}))}();
+
+
+</script>
+
+{% if request.page_type == 'product' %}
+	{% render 'dataLayer.product' %}
+  {% elsif request.page_type == 'collection' %}
+	{% render 'dataLayer.collection' %}
+{% elsif request.page_type == 'cart' %}
+	{% render 'dataLayer.cart' %}
+{% elsif request.page_type == 'index' %}
+	{% render 'dataLayer.index' %}
+{% endif %} 

@@ -1,0 +1,54 @@
+<script>
+   window.dataLayer = window.dataLayer || [];  // init data layer if doesn't already exist
+    var template = "{{template}}";
+
+    {% if template contains 'product' %}
+        var ecommerce = {
+          item_id: {{product.id | json}},
+          item_name: {{product.title | json}},
+          item_brand: {{product.vendor | json}},
+          item_variant: {{product.selected_or_first_available_variant.title | json}},
+          price: Number({{product.selected_or_first_available_variant.price}}) / 100,
+          quantity: 1
+        };
+          setTimeout(function(){
+          dataLayer.push({ ecommerce: null });
+          dataLayer.push({
+            event : 'view_item',
+            ecommerce: {
+              currency: {{shop.currency | json}},
+              value: Number({{product.selected_or_first_available_variant.price}}) / 100,
+              items: [
+                ecommerce
+              ]
+            } 
+          });
+             }, 1000);
+  window.variantselected = {{product.selected_or_first_available_variant | json}};
+ window.addEventListener('DOMContentLoaded', (event) => {
+          document.querySelectorAll('form[action="/cart/add"] [type="submit"]').forEach(el => {
+              el.addEventListener('click',function (e) {
+                 dataLayer.push({ ecommerce: null });
+               var quantity =  document.querySelectorAll('[name="quantity"]')[0].value;
+                dataLayer.push({
+                    'event'    : 'add_to_cart',
+                    'ecommerce': {
+                      'currency': {{shop.currency | json}},
+                      'value': Number(window.variantselected.price) / 100,
+                      'items': [
+                          {
+                          item_id: window.variantselected.id,
+                          item_name: {{product.title | json}},
+                          item_brand: {{product.vendor | json}},
+                          item_variant: window.variantselected.title,
+                          price: Number(window.variantselected.price) / 100,
+                          quantity: quantity
+                          }
+                      ]
+                    }
+                  });
+              });
+          });
+      });
+ {% endif %}
+</script>
