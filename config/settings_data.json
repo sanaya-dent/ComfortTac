@@ -1,13 +1,13 @@
 {
   "current": {
-    "purchase_code": "0163ad4f-a238-47d5-a2ba-084d4dac82e7",
+    "purchase_code": "368d197f-9860-4a0c-a2fd-6a60f348be5b",
     "body_bg": "#ffffff",
     "home_keywords": "",
     "shop_author": "Thrasio",
     "use_rtl": "0",
     "platform_email": "3",
-    "header_design": "bottom",
-    "logo": "shopify:\/\/shop_images\/Nippies-Logo-520px.png",
+    "header_design": "inline",
+    "logo": "shopify:\/\/shop_images\/ComfortTac_Black_Logo_300x45_c0b25adb-ca0f-407d-a14d-5841a230da74.png",
     "logo_width": 145,
     "logos_width": 120,
     "logo_mb": "shopify:\/\/shop_images\/jbn.jpg",
@@ -145,7 +145,7 @@
           "b3c6ceca-2d54-4a14-b482-bb86cbf25f08": {
             "type": "copyR",
             "settings": {
-              "text": "<span class=\"t4s-cp\">© [year] B-Six. All Rights Reserved<\/span>",
+              "text": "<span class=\"t4s-cp\">© [year]  ComfortTac. All Rights Reserved<\/span>",
               "mgb": 0,
               "mgb_mb": 0
             }
@@ -248,9 +248,10 @@
         "blocks": {
           "91fda933-0e19-49b6-9810-b031e272d0cf": {
             "type": "bl_col",
+            "disabled": true,
             "settings": {
               "col_heading": "More",
-              "menu": "information",
+              "menu": "",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "4",
@@ -268,12 +269,12 @@
           "footer-8": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "About",
+              "col_heading": "",
               "menu": "footer",
               "menu_style": "1",
               "col_border": "none",
-              "col_dk": "4",
-              "col_tb": "4",
+              "col_dk": "3",
+              "col_tb": "3",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,0,0,0",
@@ -287,12 +288,12 @@
           "footer-4": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "Stay in touch!",
-              "menu": "",
+              "col_heading": "",
+              "menu": "footer-menu-2",
               "menu_style": "1",
               "col_border": "none",
-              "col_dk": "4",
-              "col_tb": "4",
+              "col_dk": "3",
+              "col_tb": "3",
               "col_mb": "12",
               "content_align": "t4s-text-md-start",
               "padding_inner": "5px,0,0,0",
@@ -303,10 +304,29 @@
               "padding_inner_mb": ""
             }
           },
+          "bl_col_44RqKp": {
+            "type": "bl_col",
+            "settings": {
+              "col_heading": "",
+              "menu": "",
+              "menu_style": "1",
+              "col_border": "none",
+              "col_dk": "6",
+              "col_tb": "6",
+              "col_mb": "12",
+              "content_align": "t4s-text-lg-start",
+              "padding_inner": "",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-start",
+              "padding_inner_mb": ""
+            }
+          },
           "d319ce19-e078-4958-b353-44ba66439d6f": {
             "type": "custom_text",
             "settings": {
-              "text": "Sign up for exclusive offers and new product updates",
+              "text": "Join our mailing list",
               "remove_br_tag": false,
               "tag": "p",
               "fontf": "inherit",
@@ -332,7 +352,7 @@
               "form_width_mb": 0,
               "newl_des": "3",
               "news_align": "center",
-              "newl_size": "small",
+              "newl_size": "large",
               "btn_icon": false,
               "input_cl": "#878787",
               "border_cl": "#000000",
@@ -343,6 +363,25 @@
               "hidden_mobile": false,
               "mgb": 15,
               "mgb_mb": 10
+            }
+          },
+          "bl_col_tVmq93": {
+            "type": "bl_col",
+            "settings": {
+              "col_heading": "",
+              "menu": "",
+              "menu_style": "1",
+              "col_border": "none",
+              "col_dk": "3",
+              "col_tb": "6",
+              "col_mb": "12",
+              "content_align": "t4s-text-lg-start",
+              "padding_inner": "",
+              "content_align_tb": "t4s-text-md-start",
+              "padding_inner_tb": "",
+              "col_heading_mobile": "",
+              "content_align_mb": "t4s-text-start",
+              "padding_inner_mb": ""
             }
           },
           "cus_socials_3WzLGX": {
@@ -369,8 +408,10 @@
           "91fda933-0e19-49b6-9810-b031e272d0cf",
           "footer-8",
           "footer-4",
+          "bl_col_44RqKp",
           "d319ce19-e078-4958-b353-44ba66439d6f",
           "newsletter_ziJ6nX",
+          "bl_col_tVmq93",
           "cus_socials_3WzLGX"
         ],
         "settings": {
@@ -451,29 +492,19 @@
               "text_align": "center",
               "col": "12"
             }
-          },
-          "social_EMmyVM": {
-            "type": "social",
-            "settings": {
-              "social": "2",
-              "hide": false,
-              "text_align": "start",
-              "col": "4"
-            }
           }
         },
         "block_order": [
-          "435a9eb6-413b-4cf0-8f9f-1359395beee8",
-          "social_EMmyVM"
+          "435a9eb6-413b-4cf0-8f9f-1359395beee8"
         ],
         "settings": {
-          "show_topbar": true,
+          "show_topbar": false,
           "topbar_transparent": false,
           "height": 45,
           "fontsize": 15,
           "cl": "#0b0f0e",
           "cl_a_hover": "#0b0f0e",
-          "bg": "#ffa589",
+          "bg": "#ffffff",
           "bg_op": 100,
           "show_border": false,
           "bd_cl": "#000000",
@@ -491,10 +522,10 @@
           "bc56631a-9ba2-4375-8289-27c26fc8f484": {
             "type": "drop",
             "settings": {
-              "title": "Shop",
-              "url": "https:\/\/rangerready.com\/collections\/all",
+              "title": "Shop Holsters",
+              "url": "shopify:\/\/collections\/concealed-carry-holsters-by-comforttac",
               "open_link": "_self",
-              "menu": "shop",
+              "menu": "shop-holsters",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -505,24 +536,28 @@
               "pos": "left"
             }
           },
-          "ce52926d-7cb6-42d8-a114-124eb9f5e307": {
-            "type": "base",
+          "drop_EtdkwR": {
+            "type": "drop",
             "settings": {
-              "title": "Why Picaridin?",
-              "url": "shopify:\/\/pages\/what-is-picaridin",
+              "title": "Shop Spare Magazine Pouch",
+              "url": "shopify:\/\/products\/the-ultimate-spare-magazine-pouch-for-belly-band-holster",
               "open_link": "_self",
+              "menu": "shop-spare-magazine-pouch",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": ""
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos_sub": "bottom",
+              "pos": "left"
             }
           },
           "45db3a5d-08e6-4b20-9a0f-3ecb8a7701aa": {
             "type": "base",
             "settings": {
-              "title": "Why Permethrin?",
-              "url": "shopify:\/\/pages\/permethrin-repellent-spray",
+              "title": "Shop All",
+              "url": "shopify:\/\/collections\/all-products",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -531,31 +566,35 @@
               "lb_cl": ""
             }
           },
-          "7be36556-8f02-4ac7-9abc-7de59e33c050": {
-            "type": "base",
+          "drop_n7hexF": {
+            "type": "drop",
             "settings": {
               "title": "About Us",
-              "url": "shopify:\/\/pages\/about-us",
+              "url": "shopify:\/\/pages\/about-comforttac",
               "open_link": "_self",
+              "menu": "about-us",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": ""
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos_sub": "bottom",
+              "pos": "left"
             }
           }
         },
         "block_order": [
           "bc56631a-9ba2-4375-8289-27c26fc8f484",
-          "ce52926d-7cb6-42d8-a114-124eb9f5e307",
+          "drop_EtdkwR",
           "45db3a5d-08e6-4b20-9a0f-3ecb8a7701aa",
-          "7be36556-8f02-4ac7-9abc-7de59e33c050"
+          "drop_n7hexF"
         ],
         "custom_css": [
 
         ],
         "settings": {
-          "layout": "logo_center",
+          "layout": "logo_left",
           "full_header": true,
           "height": 70,
           "arrow": false,
@@ -1221,7 +1260,7 @@
               "title": "Shop",
               "url": "shopify:\/\/collections\/all",
               "open_link": "_self",
-              "menu": "shop",
+              "menu": "",
               "lb": "",
               "lb_cl": "",
               "icons_op": "0",
@@ -2041,7 +2080,7 @@
               "title": "Learn More",
               "url": "shopify:\/\/blogs\/news",
               "open_link": "_self",
-              "menu": "learn-more",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -2482,12 +2521,6 @@
 
     ],
     "blocks": {
-      "17676059084223943535": {
-        "type": "shopify:\/\/apps\/triplewhale\/blocks\/triple_pixel_snippet\/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
