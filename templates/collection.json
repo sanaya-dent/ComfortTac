@@ -237,6 +237,10 @@
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
+      "custom_css": [
+        ".opinew-stars-plugin-product-list {text-align: left !important;}",
+        ".t4s-product-title {font-size: 14px; font-weight: 400;}"
+      ],
       "settings": {
         "show_desc": false,
         "position_desc": "1",
