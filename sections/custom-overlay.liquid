@@ -1,0 +1,123 @@
+<div class="overlay-container">
+  <img src="{{ section.settings.desktop_image | image_url }}" class="desktop overlay-image">
+  <img src="{{ section.settings.mobile_image | image_url }}" class="mobile overlay-image">
+
+  <div class="content">
+      <h3>{{ section.settings.heading }}</h3>
+      {{ section.settings.content }}
+  </div>
+</div>
+{% style %}
+.overlay-container {
+  position: relative;
+  width: 100%;
+}
+#shopify-section-{{ section.id }}{
+  margin:30px 0;
+}
+.overlay-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#shopify-section-{{ section.id }} .content {
+      position: absolute;
+    top: 50%;
+    left: {{ section.settings.ch_pos}}% ;
+    transform: translate(-50%, -50%);
+    width: 30%;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+  .content h3{
+        border-bottom: 1px solid;
+    color: white;
+    line-height: 65px;
+    font-size: 25px;
+  }
+.mobile{
+  display:none;
+}
+
+ @media screen and (max-width:1050px){
+  #shopify-section-{{ section.id }} .content{
+         width: 40%;
+      font-size: 16px;
+   }
+     .content h3{
+      font-size: 22px;
+           }
+ }
+ @media screen and (max-width:650px){
+    .desktop{
+      display:none;
+    }
+    .mobile{
+      display:block;
+    }
+   #shopify-section-{{ section.id }} .content{
+     width: 100%;
+    left: 50%;
+    top:70%;
+   }
+ .content h3{
+    text-align: center;
+    font-size: 22px;
+   }
+    .content p,.content li{
+     font-size: 16px;
+   }
+  }
+{% endstyle %}
+{% schema %}
+{
+  "name": "Custom Overlay section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "heading"
+    },
+    {
+      "type": "richtext",
+      "label": "Content",
+      "id": "content"
+    },{
+        "type": "range",
+        "id": "ch_pos",
+        "label": "Content horizontal position",
+        "info": "<= 50: Left position , > 50 right position",
+        "max": 100,
+        "min": 0,
+        "step": 1,
+        "unit": "%",
+        "default": 50
+      },
+    {
+      "type": "image_picker",
+      "label": "Desktop Image",
+      "id": "desktop_image"
+    },
+    {
+      "type": "image_picker",
+      "label": "Mobile Image",
+      "id": "mobile_image"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Cutsom Overlay "
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
