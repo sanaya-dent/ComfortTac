@@ -295,7 +295,7 @@
         "layout": "t4s-container-fluid",
         "cl_bg": "#212121",
         "cl_bg_gradient": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "50px,50px,50px,50px",
         "mg_tb": "",
         "pd_tb": "",
