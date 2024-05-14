@@ -245,7 +245,7 @@
         "item_FtCrYT"
       ],
       "custom_css": [
-        "h3,span{color: white !important;}"
+        "h3,span {color: white !important;}"
       ],
       "settings": {
         "design_heading": "1",
@@ -283,17 +283,17 @@
         "enable_border": false,
         "enable_shadow": false,
         "cl_border": "#f6f6f8",
-        "cl_head": "#222",
-        "cl_icon": "#222",
+        "cl_head": "#222222",
+        "cl_icon": "#222222",
         "cl_des": "#ffffff",
         "cl_box": "rgba(0,0,0,0)",
         "cl_box_hover": "rgba(0,0,0,0)",
-        "cl_content_hover": "#fff",
+        "cl_content_hover": "#ffffff",
         "layout": "t4s-container-fluid",
         "cl_bg": "#212121",
         "cl_bg_gradient": "",
         "mg": ",,50px,",
-        "pd": "",
+        "pd": "50px,50px,50px,50px",
         "mg_tb": "",
         "pd_tb": "",
         "mg_mb": ",,30px,",
