@@ -120,12 +120,22 @@
         "desktop_image": "shopify:\/\/shop_images\/download_25.jpg",
         "mobile_image": "shopify:\/\/shop_images\/download_24.jpg"
       }
+    },
+    "custom_overlay_3RMJMm": {
+      "type": "custom-overlay",
+      "settings": {
+        "heading": "OUR MISSION",
+        "content": "<p>ComfortTac’s main goal has always been to develop the most comfortable concealed-carry holster on the planet. If you need to carry a firearm with you, we want to make it as easy and safe as possible. To further create ease, we also back everything up with our Bulletproof Guarantee—100% money back on ALL ComfortTac products for 30 days. No packaging, no problem.<\/p>",
+        "ch_pos": 75,
+        "desktop_image": "shopify:\/\/shop_images\/download_26.jpg"
+      }
     }
   },
   "order": [
     "heading",
     "main",
     "sidebar-page",
-    "custom_overlay_7TxCU4"
+    "custom_overlay_7TxCU4",
+    "custom_overlay_3RMJMm"
   ]
 }
