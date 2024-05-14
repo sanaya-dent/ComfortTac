@@ -116,6 +116,7 @@
       "settings": {
         "heading": "ABOUT US",
         "content": "<p>Back in 2014, our founder, John Cochran, decided he had enough with every shoddy, uncomfortable concealed-carry holster on the market. No brand ever seemed to be up to the comfort standards that he demanded when carrying his firearm. So, John decided to develop his own brand and ComfortTac was born! Since then, we have expanded to a full line of tactical products that aim to always make concealed-carry comfortable.<\/p>",
+        "btn_text": "",
         "ch_pos": 22,
         "desktop_image": "shopify:\/\/shop_images\/download_25.jpg",
         "mobile_image": "shopify:\/\/shop_images\/download_24.jpg"
@@ -126,6 +127,7 @@
       "settings": {
         "heading": "OUR MISSION",
         "content": "<p>ComfortTac’s main goal has always been to develop the most comfortable concealed-carry holster on the planet. If you need to carry a firearm with you, we want to make it as easy and safe as possible. To further create ease, we also back everything up with our Bulletproof Guarantee—100% money back on ALL ComfortTac products for 30 days. No packaging, no problem.<\/p>",
+        "btn_text": "",
         "ch_pos": 75,
         "desktop_image": "shopify:\/\/shop_images\/download_26.jpg",
         "mobile_image": "shopify:\/\/shop_images\/download_28.jpg"
@@ -308,6 +310,8 @@
       "settings": {
         "heading": "AMAZON BEST SELLER",
         "content": "<p>The ComfortTac Gun Holster Belly Band is an Amazon #1 Best Seller. Take a look and discover all the incredible, comfortable<a href=\"https:\/\/comforttac.com\/\">products <\/a>we<a href=\"https:\/\/comforttac.com\/\">offer<\/a>!  <\/p>",
+        "content_image": "shopify:\/\/shop_images\/download_30.jpg",
+        "btn_text": "",
         "ch_pos": 75,
         "desktop_image": "shopify:\/\/shop_images\/download.webp",
         "mobile_image": "shopify:\/\/shop_images\/download_29.jpg"
