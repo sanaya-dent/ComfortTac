@@ -127,7 +127,8 @@
         "heading": "OUR MISSION",
         "content": "<p>ComfortTac’s main goal has always been to develop the most comfortable concealed-carry holster on the planet. If you need to carry a firearm with you, we want to make it as easy and safe as possible. To further create ease, we also back everything up with our Bulletproof Guarantee—100% money back on ALL ComfortTac products for 30 days. No packaging, no problem.<\/p>",
         "ch_pos": 75,
-        "desktop_image": "shopify:\/\/shop_images\/download_26.jpg"
+        "desktop_image": "shopify:\/\/shop_images\/download_26.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/download_28.jpg"
       }
     },
     "iconbox_CRmt9w": {
@@ -298,8 +299,18 @@
         "pd_tb": "",
         "mg_mb": ",,30px,",
         "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
+        "use_cus_css": true,
+        "code_cus_css": ".SectionID .t4s-iconbox-icon{\n    margin: 0 auto;\n    width: 100%;\n\n}"
+      }
+    },
+    "custom_overlay_rTdwJm": {
+      "type": "custom-overlay",
+      "settings": {
+        "heading": "AMAZON BEST SELLER",
+        "content": "<p>The ComfortTac Gun Holster Belly Band is an Amazon #1 Best Seller. Take a look and discover all the incredible, comfortable<a href=\"https:\/\/comforttac.com\/\">products <\/a>we<a href=\"https:\/\/comforttac.com\/\">offer<\/a>!  <\/p>",
+        "ch_pos": 75,
+        "desktop_image": "shopify:\/\/shop_images\/download.webp",
+        "mobile_image": "shopify:\/\/shop_images\/download_29.jpg"
       }
     }
   },
@@ -309,6 +320,7 @@
     "sidebar-page",
     "custom_overlay_7TxCU4",
     "custom_overlay_3RMJMm",
-    "iconbox_CRmt9w"
+    "iconbox_CRmt9w",
+    "custom_overlay_rTdwJm"
   ]
 }
