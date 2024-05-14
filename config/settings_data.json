@@ -37,7 +37,7 @@
     "fnt_fm_gg1": "'refrigerator-deluxe'",
     "fnt_fm_gg2": "'refrigerator-deluxe'",
     "fnt_fm_gg3": "'refrigerator-deluxe'",
-    "custom_font_html": "",
+    "custom_font_html": "@font-face {\n  font-family: \"refrigerator-deluxe, sans-serif\";\n\tfont-weight: 700;\n\tfont-style: normal;\n}\nbody {\n  font-family: 'refrigerator-deluxe'!important;\n}\nh1,h2,h3,h4,h5,h6{\n font-family: 'refrigerator-deluxe'!important;\n}",
     "bd_ffamily": "1",
     "bd_fsize": 16,
     "hd_ffamily": "1",
