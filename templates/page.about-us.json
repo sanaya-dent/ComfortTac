@@ -120,7 +120,9 @@
         "btn_link": "",
         "ch_pos": 22,
         "desktop_image": "shopify:\/\/shop_images\/download_25.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/download_24.jpg"
+        "mobile_image": "shopify:\/\/shop_images\/download_24.jpg",
+        "btn_clr": "",
+        "btn_hov_clr": ""
       }
     },
     "custom_overlay_3RMJMm": {
@@ -132,7 +134,9 @@
         "btn_link": "",
         "ch_pos": 75,
         "desktop_image": "shopify:\/\/shop_images\/download_26.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/download_28.jpg"
+        "mobile_image": "shopify:\/\/shop_images\/download_28.jpg",
+        "btn_clr": "",
+        "btn_hov_clr": ""
       }
     },
     "iconbox_CRmt9w": {
@@ -317,7 +321,38 @@
         "btn_link": "shopify:\/\/collections\/all-products",
         "ch_pos": 75,
         "desktop_image": "shopify:\/\/shop_images\/download.webp",
-        "mobile_image": "shopify:\/\/shop_images\/download_29.jpg"
+        "mobile_image": "shopify:\/\/shop_images\/download_29.jpg",
+        "btn_clr": "",
+        "btn_hov_clr": ""
+      }
+    },
+    "top_heading_4BbAat": {
+      "type": "top_heading",
+      "blocks": {
+        "bl_heading_mqm7id": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "WHAT PEOPLE ARE SAYING ABOUT US"
+          }
+        }
+      },
+      "block_order": [
+        "bl_heading_mqm7id"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "#212121",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "50px,0,30px,0",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": "",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "1715686674c5847c05": {
@@ -333,7 +368,7 @@
         "opinew_product_reviews_app_carousel_kg6DTD"
       ],
       "custom_css": [
-
+        "{background: #212121;}"
       ],
       "settings": {
       }
@@ -347,6 +382,7 @@
     "custom_overlay_3RMJMm",
     "iconbox_CRmt9w",
     "custom_overlay_rTdwJm",
+    "top_heading_4BbAat",
     "1715686674c5847c05"
   ]
 }
