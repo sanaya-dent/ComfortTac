@@ -4,7 +4,13 @@
 
   <div class="content">
       <h3>{{ section.settings.heading }}</h3>
+    {% if section.settings.content_image != null %}
+  <img src="{{ section.settings.content_image | image_url }}" class="mobile overlay-image">
+    {% endif %}
       {{ section.settings.content }}
+        {% if section.settings.button_text != null %}
+            
+          {% endif %}
   </div>
 </div>
 {% style %}
@@ -85,6 +91,16 @@
       "type": "richtext",
       "label": "Content",
       "id": "content"
+    },
+    {
+      "type": "image_picker",
+      "label": "Content Image",
+      "id": "content_image"
+    },
+    {
+      "type": "text",
+      "label": "Button Text",
+      "id": "btn_text"
     },{
         "type": "range",
         "id": "ch_pos",
