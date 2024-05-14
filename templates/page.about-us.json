@@ -129,6 +129,178 @@
         "ch_pos": 75,
         "desktop_image": "shopify:\/\/shop_images\/download_26.jpg"
       }
+    },
+    "iconbox_CRmt9w": {
+      "type": "iconbox",
+      "blocks": {
+        "item_nnYhrK": {
+          "type": "item",
+          "settings": {
+            "link": "",
+            "open_link": "_self",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/download_26.png",
+            "icon_image_width": 0,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "High-quality foam and nylon materials for ultimate comfort"
+          }
+        },
+        "item_rixcDX": {
+          "type": "item",
+          "settings": {
+            "link": "",
+            "open_link": "_self",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/download_27.png",
+            "icon_image_width": 0,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Heavy-duty construction that lasts"
+          }
+        },
+        "item_tFCjDp": {
+          "type": "item",
+          "settings": {
+            "link": "",
+            "open_link": "_self",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/download_27.png",
+            "icon_image_width": 0,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Convenient compatibility for all sizes of firearms"
+          }
+        },
+        "item_zTkzMg": {
+          "type": "item",
+          "settings": {
+            "link": "",
+            "open_link": "_self",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/download_29.png",
+            "icon_image_width": 0,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Superior concealment design"
+          }
+        },
+        "item_BGcpyb": {
+          "type": "item",
+          "settings": {
+            "link": "",
+            "open_link": "_self",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/download_30.png",
+            "icon_image_width": 0,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Exceptional versatility that can be carried in any position"
+          }
+        },
+        "item_FtCrYT": {
+          "type": "item",
+          "settings": {
+            "link": "",
+            "open_link": "_self",
+            "icon_pos": "start",
+            "icon": "las la-gem",
+            "icon_awesome_fs": 50,
+            "image_icon": "shopify:\/\/shop_images\/download_31.png",
+            "icon_image_width": 0,
+            "img_svg": "",
+            "w_image_svg": 60,
+            "w_image_svg_mb": 40,
+            "heading": "",
+            "des": "Conceals comfortably in any type of clothing"
+          }
+        }
+      },
+      "block_order": [
+        "item_nnYhrK",
+        "item_rixcDX",
+        "item_tFCjDp",
+        "item_zTkzMg",
+        "item_BGcpyb",
+        "item_FtCrYT"
+      ],
+      "custom_css": [
+        "h3,span{color: white !important;}"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "OUR CRAFTSMANSHIP",
+        "icon_heading": "las la-gem",
+        "top_subheading": "ComfortTac’s products are packed with beneficial features for every concealed-carry customer:",
+        "tophead_mb": 30,
+        "source": "get_image",
+        "pd_content": "",
+        "layout_des": "1",
+        "col_dk": "6",
+        "col_tb": "4",
+        "col_mb": "2",
+        "space_h_item": "20",
+        "space_v_item": "10",
+        "space_h_item_mb": "20",
+        "space_v_item_mb": "10",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "enable_border": false,
+        "enable_shadow": false,
+        "cl_border": "#f6f6f8",
+        "cl_head": "#222",
+        "cl_icon": "#222",
+        "cl_des": "#ffffff",
+        "cl_box": "rgba(0,0,0,0)",
+        "cl_box_hover": "rgba(0,0,0,0)",
+        "cl_content_hover": "#fff",
+        "layout": "t4s-container-fluid",
+        "cl_bg": "#212121",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
     }
   },
   "order": [
@@ -136,6 +308,7 @@
     "main",
     "sidebar-page",
     "custom_overlay_7TxCU4",
-    "custom_overlay_3RMJMm"
+    "custom_overlay_3RMJMm",
+    "iconbox_CRmt9w"
   ]
 }
