@@ -8,8 +8,8 @@
   <img src="{{ section.settings.content_image | image_url }}" class="">
     {% endif %}
       {{ section.settings.content }}
-        {% if section.settings.button_text != null %}
-            <a href=""><button>{{ section.settings.button_text }}</button></a>
+        {% if section.settings.btn_text != null %}
+            <a href="{{ section.settings.btn_link }}"><button>{{ section.settings.btn_text }}</button></a>
           {% endif %}
   </div>
 </div>
@@ -101,6 +101,10 @@
       "type": "text",
       "label": "Button Text",
       "id": "btn_text"
+    },{
+      "type": "url",
+      "label": "Button Link",
+      "id": "btn_link"
     },{
         "type": "range",
         "id": "ch_pos",
