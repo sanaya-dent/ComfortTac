@@ -420,8 +420,8 @@
         "pd_tb": "",
         "mg_mb": "",
         "pd_mb": "",
-        "use_cus_css": false,
-        "code_cus_css": ""
+        "use_cus_css": true,
+        "code_cus_css": ".SectionID .t4s-product-info{\ntext-align:left !important\n}\n#MainContent #opinew-stars-plugin-product {\n    text-align: left !important;\n}"
       }
     },
     "custom_overlay_ngMyEG": {
