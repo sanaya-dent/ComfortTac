@@ -77,16 +77,6 @@
           <div class="t4s-product2 t4s-pr-grid t4s-pr-{{ pid }} {{ col }} t4s-col-item">
             <div class="t4s-product-wrapper">
               <div data-cacl-slide class="t4s-product-inner t4s-pr t4s-oh" timeline hdt-reveal="slide-in">
-            <h3 class="t4s-product-title"><a data-pr-href href="{{ pr_url }}">{% if bk_stts.title != blank %}{{ bk_stts.title }}{% else %}{{ product.title }}{% endif %}</a></h3>
-           {%- if se_stts.show_des_pr %}
-                       <div class="t4s-product-des">
-                         {%- if  bk_stts.desc != blank -%}
-                            {{ bk_stts.desc }}
-                         {%- else -%}
-                            <p>{{- product.description | strip_html | truncatewords: 30 -}}</p>
-                         {%- endif -%}
-                       </div>
-                     {%- endif -%}
                         
           <div class="t4s-product-img t4s_ratio {% if image2 != blank %}is-show-img2{% endif %}" {{ imgatt }}style="--aspect-ratioapt: {{ image.aspect_ratio | default: 1 }}">
                     <img data-pr-img class="t4s-product-main-img lazyloadt4s" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ image | image_url: width: 1 }}" data-widths="[100,200,400,600,700,800,900]" data-optimumx="2" data-sizes="auto" width="{{ image.width }}" height="{{ image.height }}" alt="{% if image.alt %}{{ image.alt | escape }}{% else %}{{ shop.name }}{% endif %}">
@@ -97,6 +87,16 @@
                     <noscript><img class="t4s-product-main-img" loading="lazy" src="{{ image | image_url: width: 600 }}"  alt="{{ image.alt | escape }}"></noscript>
                 </div>
                 <div class="t4s-product-info">
+            <h3 class="t4s-product-title"><a data-pr-href href="{{ pr_url }}">{% if bk_stts.title != blank %}{{ bk_stts.title }}{% else %}{{ product.title }}{% endif %}</a></h3>
+           {%- if se_stts.show_des_pr %}
+                       <div class="t4s-product-des">
+                         {%- if  bk_stts.desc != blank -%}
+                            {{ bk_stts.desc }}
+                         {%- else -%}
+                            <p>{{- product.description | strip_html | truncatewords: 30 -}}</p>
+                         {%- endif -%}
+                       </div>
+                     {%- endif -%}
                   <div class="t4s-product-info__inner"> 
                 
                      {%- if bk_stts.pr_price != blank %} <span class="t4s-product-price">{{ bk_stts.pr_price | times: 100 | money }}</span>
