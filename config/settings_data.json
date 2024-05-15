@@ -474,7 +474,6 @@
         "blocks": {
           "435a9eb6-413b-4cf0-8f9f-1359395beee8": {
             "type": "text",
-            "disabled": true,
             "settings": {
               "text": "<p>Due to higher than anticipated demand for our products, we are completely out of stock! We are working hard to restock our best-sellers ASAP, but we apologize for any inconvenience.<\/p>",
               "adding_border": false,
@@ -498,13 +497,13 @@
           "435a9eb6-413b-4cf0-8f9f-1359395beee8"
         ],
         "settings": {
-          "show_topbar": false,
+          "show_topbar": true,
           "topbar_transparent": false,
           "height": 45,
           "fontsize": 15,
-          "cl": "#0b0f0e",
-          "cl_a_hover": "#0b0f0e",
-          "bg": "#ffffff",
+          "cl": "#ffffff",
+          "cl_a_hover": "#ffffff",
+          "bg": "#212121",
           "bg_op": 100,
           "show_border": false,
           "bd_cl": "#000000",
