@@ -164,7 +164,7 @@
             "cv_pos": 50,
             "ch_pos": 15,
             "cv_pos_mb": 23,
-            "ch_pos_mb": 50,
+            "ch_pos_mb": 10,
             "bg_overlay": "#000000",
             "bg_opacity": 15,
             "bg_content_cl": "rgba(0,0,0,0)",
