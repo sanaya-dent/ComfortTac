@@ -19,7 +19,7 @@
             "content_width": "auto",
             "cv_pos": 50,
             "ch_pos": 15,
-            "cv_pos_mb": 0,
+            "cv_pos_mb": 23,
             "ch_pos_mb": 10,
             "bg_overlay": "#000000",
             "bg_opacity": 15,
