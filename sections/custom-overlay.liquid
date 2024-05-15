@@ -8,7 +8,7 @@
       <img src="{{ section.settings.content_image | image_url }}" class="">
     {% endif %}
       {{ section.settings.content }}
-        {% if section.settings.btn_link  %}
+        {% if section.settings.btn_link  and section.settings.btn_text %}
             <a href="{{ section.settings.btn_link }}"><button>{{ section.settings.btn_text }}</button></a>
           {% endif %}
   </div>
