@@ -86,6 +86,7 @@
         "560f5822-3eeb-4070-a2cd-b5738881a4c1",
         "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
       ],
+      "disabled": true,
       "settings": {
         "show_top_collections": false,
         "source": "1",
@@ -121,7 +122,7 @@
         "929f4f7e-44b0-45b5-94d9-6db41a40b23e": {
           "type": "3",
           "settings": {
-            "breadcrumb_color": "#000f41",
+            "breadcrumb_color": "#ffffff",
             "brc_mgb": 5
           }
         },
@@ -130,7 +131,7 @@
           "settings": {
             "heading": "",
             "fontf": "inherit",
-            "text_cl": "#0b0f0e",
+            "text_cl": "#ffffff",
             "text_fs": 36,
             "text_lh": 0,
             "text_fw": 700,
@@ -238,8 +239,9 @@
         "30594d23-d644-4653-9545-9ff769d2e6ab"
       ],
       "custom_css": [
-        ".opinew-stars-plugin-product-list {text-align: left !important;}",
-        ".t4s-product-title {font-size: 14px; font-weight: 400;}"
+        ".opinew-stars-plugin-product-list,.t4s-product-info__inner {text-align: left !important;}",
+        ".t4s-product-title {font-size: 14px; font-weight: 400;}",
+        ".t4s-pr-item-btn {border-radius: 50%;}"
       ],
       "settings": {
         "show_desc": false,
