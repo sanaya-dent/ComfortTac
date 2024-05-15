@@ -5,7 +5,7 @@
   <div class="content">
       <h3>{{ section.settings.heading }}</h3>
     {% if section.settings.content_image != null or section.settings.content_image != "" %}
-  <img src="{{ section.settings.content_image | image_url }}" class="">
+      <img src="{{ section.settings.content_image | image_url }}" class="">
     {% endif %}
       {{ section.settings.content }}
         {% if section.settings.btn_text != null %}
