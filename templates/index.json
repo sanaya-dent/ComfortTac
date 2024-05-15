@@ -19,7 +19,7 @@
             "content_width": "auto",
             "cv_pos": 50,
             "ch_pos": 15,
-            "cv_pos_mb": 23,
+            "cv_pos_mb": 15,
             "ch_pos_mb": 10,
             "bg_overlay": "#000000",
             "bg_opacity": 15,
@@ -318,6 +318,112 @@
         "code_cus_css": "@media (min-width:768px){\n.SectionID #contentblock-2{margin-right:25%;}\n.SectionID #contentblock-1{\nmargin-left:25%;}\n}\n@media (max-width:768px){\n .SectionID .t4s-content-position{   margin-top: -100%;}\n}"
       }
     },
+    "featured_collection2_F9cTQP": {
+      "type": "featured-collection2",
+      "blocks": {
+        "product_MyPgTV": {
+          "type": "product",
+          "settings": {
+            "link_product": "shopify:\/\/products\/belly-band-holster-deep-conceal",
+            "title": "",
+            "desc": "",
+            "btn_txt": "Shop now",
+            "btn_url": ""
+          }
+        },
+        "product_HjVXRU": {
+          "type": "product",
+          "settings": {
+            "link_product": "shopify:\/\/products\/ankle-holster",
+            "title": "",
+            "desc": "",
+            "btn_txt": "Shop now",
+            "btn_url": ""
+          }
+        },
+        "product_rwDyGN": {
+          "type": "product",
+          "settings": {
+            "link_product": "",
+            "title": "",
+            "desc": "",
+            "btn_txt": "Shop now",
+            "btn_url": ""
+          }
+        },
+        "product_Tq898Q": {
+          "type": "product",
+          "settings": {
+            "link_product": "shopify:\/\/products\/fanny-pack-holster",
+            "title": "",
+            "desc": "",
+            "btn_txt": "Shop now",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_MyPgTV",
+        "product_HjVXRU",
+        "product_rwDyGN",
+        "product_Tq898Q"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "SHOP OUR BEST SELLER HOLSTERS",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "image_ratio": "ratioadapt",
+        "image_size": "cover",
+        "image_position": "default",
+        "show_des_pr": false,
+        "show_btn": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "content_align": "center",
+        "limit": 8,
+        "col_dk": "3",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "#333333",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "custom_overlay_ngMyEG": {
       "type": "custom-overlay",
       "custom_css": [
@@ -356,6 +462,7 @@
   },
   "order": [
     "1646028739ae283905",
+    "featured_collection2_F9cTQP",
     "custom_overlay_ngMyEG",
     "1696627529d8e7efa8"
   ]
