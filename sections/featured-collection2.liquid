@@ -97,10 +97,7 @@
                          {%- endif -%}
                        </div>
                      {%- endif -%}
-                  <div style="clear:both;"></div><div id="opinew-reviews-product-page-code" class="opw-widget-wrapper-default">
-                <span id="opinew-plugin" data-server-address="https://api.opinew.com" data-opw-prodreviews="{{ product.metafields.opinew_metafields['product_plugin'] }}" data-opinew-shop-id="{{ shop.id }}" data-shop-url="{{shop.domain}}" data-platform-product-id="{{product.id}}">
-                 <span id="opinew_product_plugin_app"></span>
-                </span></div>
+                  <div id='opinew-stars-plugin-product'>{% render 'opinew_review_stars_product' product:product %}</div>
                   <div class="t4s-product-info__inner"> 
                 
                      {%- if bk_stts.pr_price != blank %} <span class="t4s-product-price">{{ bk_stts.pr_price | times: 100 | money }}</span>
