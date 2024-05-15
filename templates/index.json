@@ -19,8 +19,8 @@
             "content_width": "auto",
             "cv_pos": 50,
             "ch_pos": 15,
-            "cv_pos_mb": 50,
-            "ch_pos_mb": 50,
+            "cv_pos_mb": 0,
+            "ch_pos_mb": 10,
             "bg_overlay": "#000000",
             "bg_opacity": 15,
             "bg_content_cl": "rgba(0,0,0,0)",
@@ -319,13 +319,20 @@
     },
     "custom_overlay_ngMyEG": {
       "type": "custom-overlay",
+      "custom_css": [
+        ".content h3 {line-height: 32px;}",
+        "p {margin-bottom: 4px;}",
+        "a {color: #ff0000;}",
+        "a:hover {opacity: 0.6;}"
+      ],
       "settings": {
-        "heading": "",
-        "content": "",
+        "heading": "COMFORTABLE CONCEALED CARRY SOLUTIONS FOR EVERY SITUATION",
+        "content": "<p><strong>After almost a decade of carrying with an uncomfortable holster I got fed up and decided to develop my own holster with one mission, to create the most comfortable and versatile concealed carry holster on the planet. In 2015 my dream was realized and I created The Ultimate Belly Band Holster.<\/strong><\/p><p><a href=\"https:\/\/comforttac.com\/pages\/about-comforttac\"><strong>LEARN MORE<\/strong><\/a><\/p>",
         "btn_text": "",
         "btn_link": "",
         "ch_pos": 50,
         "desktop_image": "shopify:\/\/shop_images\/download_37.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/download_36.jpg",
         "btn_clr": "",
         "btn_hov_clr": ""
       }
