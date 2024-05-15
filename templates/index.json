@@ -7,7 +7,7 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify:\/\/shop_images\/download_31.jpg",
-            "image_mb": "shopify:\/\/shop_images\/download_32.jpg",
+            "image_mb": "shopify:\/\/shop_images\/download_38.jpg",
             "image_position": "default",
             "cl_img": "#a4ddd8",
             "link_img1": "",
@@ -151,6 +151,7 @@
           "type": "image_parent",
           "settings": {
             "image": "shopify:\/\/shop_images\/download_34.jpg",
+            "image_mb": "shopify:\/\/shop_images\/download_32.jpg",
             "image_position": "default",
             "cl_img": "#a4ddd8",
             "link_img1": "",
@@ -162,7 +163,7 @@
             "content_width": "auto",
             "cv_pos": 50,
             "ch_pos": 15,
-            "cv_pos_mb": 50,
+            "cv_pos_mb": 23,
             "ch_pos_mb": 50,
             "bg_overlay": "#000000",
             "bg_opacity": 15,
@@ -314,7 +315,7 @@
         "mg_mb": ",,0px,",
         "pd_mb": "",
         "use_cus_css": true,
-        "code_cus_css": "@media (min-width:768px){\n.SectionID #contentblock-2{margin-right:25%;}\n.SectionID #contentblock-1{\nmargin-left:25%;}\n}\n@media (max-width:768px){\n .SectionID .t4s-content-position{   margin-top: -50%;}\n}"
+        "code_cus_css": "@media (min-width:768px){\n.SectionID #contentblock-2{margin-right:25%;}\n.SectionID #contentblock-1{\nmargin-left:25%;}\n}\n@media (max-width:768px){\n .SectionID .t4s-content-position{   margin-top: -100%;}\n}"
       }
     },
     "custom_overlay_ngMyEG": {
