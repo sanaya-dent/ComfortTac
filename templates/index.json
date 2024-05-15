@@ -421,7 +421,7 @@
         "mg_mb": "",
         "pd_mb": "",
         "use_cus_css": true,
-        "code_cus_css": ".SectionID .t4s-product-info{\ntext-align:left !important\n}\n#MainContent #opinew-stars-plugin-product {\n    text-align: left !important;\n}\n.SectionID .t4s-product-inner{\n border: none;\n    box-shadow: none;\n}\n.SectionID  .t4s-product-title a{\ncolor:white !important;\n}\n.SectionID  .t4s-top-heading  {\nmargin-bottom:0px !important;\n}"
+        "code_cus_css": ".SectionID .t4s-product-info{\ntext-align:left !important\n}\n#MainContent #opinew-stars-plugin-product {\n    text-align: left !important;\n}\n.SectionID .t4s-product-inner{\n border: none;\n    box-shadow: none;\n}\n.SectionID  .t4s-product-title a,.SectionID h3{\ncolor:white !important;\n}\n.SectionID  .t4s-top-heading  {\nmargin-bottom:0px !important;\n}"
       }
     },
     "custom_overlay_ngMyEG": {
