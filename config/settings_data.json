@@ -460,11 +460,11 @@
           "height": 60,
           "fontsize": 12,
           "tag_line": "Perfect Your Nest,  One Find at A Time",
-          "cl": "#ffffff",
-          "bg": "#000f41",
+          "cl": "#0b0f0e",
+          "bg": "#0b0f0e",
           "bg_op": 100,
           "close": "0",
-          "cl_btn": "#ffffff",
+          "cl_btn": "#0b0f0e",
           "version": "1",
           "date": 60
         }
