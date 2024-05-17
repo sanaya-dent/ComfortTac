@@ -2141,6 +2141,9 @@
       },
       "header-sidebar": {
         "type": "header-sidebar",
+        "custom_css": [
+          "a.t4s-push-menu-btn svg rect {fill: #ffffff;}"
+        ],
         "settings": {
           "layout": "logo_search",
           "full_header": true,
@@ -2148,7 +2151,7 @@
           "frm_sea_mw": 500,
           "bgnav": "#333",
           "opnav": 100,
-          "clnav": "#000f41",
+          "clnav": "#ffffff",
           "clnav_hover": "#ffffff",
           "clsea": "#ffffff",
           "h_icon": "kalles",
@@ -2163,7 +2166,7 @@
           "scroll_header": true,
           "bgnavst": "#9dd6d1",
           "opnavst": 100,
-          "clnavst": "#222222",
+          "clnavst": "#ffffff",
           "clnavst_hover": "#56cfe1",
           "clseast": "#56cfe1",
           "transparent_header": false,
