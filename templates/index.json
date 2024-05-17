@@ -315,7 +315,7 @@
         "mg_mb": ",,0px,",
         "pd_mb": "",
         "use_cus_css": true,
-        "code_cus_css": "@media (min-width:768px){\n.SectionID #contentblock-2{margin-right:25%;}\n.SectionID #contentblock-1{\nmargin-left:25%;}\n}\n@media (max-width:768px){\n .SectionID .t4s-content-position{   margin-top: -100%;}\n}"
+        "code_cus_css": "@media (min-width:768px){\n.SectionID #contentblock-2{margin-right:25%;}\n.SectionID #contentblock-1{\nmargin-left:25%;}\n}\n@media (max-width:768px){\n .SectionID .t4s-content-position{   margin-top: -119%;}\n}"
       }
     },
     "featured_collection2_F9cTQP": {
