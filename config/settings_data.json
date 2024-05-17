@@ -454,14 +454,14 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {
-          "show_announcement": false,
+          "show_announcement": true,
           "effect": "1",
           "au_time": 3.5,
           "height": 60,
           "fontsize": 12,
-          "tag_line": "",
+          "tag_line": "Perfect Your Nest,  One Find at A Time",
           "cl": "#ffffff",
-          "bg": "#1c3e29",
+          "bg": "#000f41",
           "bg_op": 100,
           "close": "0",
           "cl_btn": "#ffffff",
