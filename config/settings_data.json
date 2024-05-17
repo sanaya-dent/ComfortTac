@@ -497,7 +497,7 @@
           "435a9eb6-413b-4cf0-8f9f-1359395beee8"
         ],
         "settings": {
-          "show_topbar": true,
+          "show_topbar": false,
           "topbar_transparent": false,
           "height": 45,
           "fontsize": 15,
