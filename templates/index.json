@@ -441,7 +441,9 @@
         "desktop_image": "shopify:\/\/shop_images\/download_37.jpg",
         "mobile_image": "shopify:\/\/shop_images\/download_36.jpg",
         "btn_clr": "",
-        "btn_hov_clr": ""
+        "btn_hov_clr": "",
+        "use_cus_css": true,
+        "code_cus_css": "@media screen and (max-width:650px){\n.content{    \nposition: relative;\n    top: 0;\n    left: 0;\n    transform: none;\n    background: #333333;\n}\n}"
       }
     },
     "top_heading_bhdfUU": {
