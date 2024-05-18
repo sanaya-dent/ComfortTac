@@ -444,6 +444,35 @@
         "btn_hov_clr": ""
       }
     },
+    "top_heading_bhdfUU": {
+      "type": "top_heading",
+      "blocks": {
+        "bl_heading_xkR6Qy": {
+          "type": "bl_heading",
+          "settings": {
+            "top_heading": "WHAT PEOPLE ARE SAYING ABOUT US"
+          }
+        }
+      },
+      "block_order": [
+        "bl_heading_xkR6Qy"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,20px,",
+        "pd": "",
+        "mg_tb": "",
+        "pd_tb": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    },
     "1696627529d8e7efa8": {
       "type": "apps",
       "blocks": {
@@ -464,6 +493,7 @@
     "1646028739ae283905",
     "featured_collection2_F9cTQP",
     "custom_overlay_ngMyEG",
+    "top_heading_bhdfUU",
     "1696627529d8e7efa8"
   ]
 }
