@@ -1,3 +1,12 @@
+ {%- liquid
+  assign sid = section.id 
+  assign t4s_se_class = 't4s_nt_se_' | append: sid
+  
+  if se_stts.use_cus_css and se_stts.code_cus_css != blank
+    render 'se_cus_css', code_cus_css: se_stts.code_cus_css, t4s_se_class: t4s_se_class
+  endif
+  
+ -%}
 <div class="overlay-container">
   <img src="{{ section.settings.desktop_image | image_url }}" class="desktop overlay-image">
   <img src="{{ section.settings.mobile_image | image_url }}" class="mobile overlay-image">
@@ -134,7 +143,25 @@
       "type": "color",
       "label": "Button hover color",
       "id": "btn_hov_clr"
-    }
+    },
+      {
+        "type": "header",
+        "content": "Custom css"
+      },
+      {
+        "id": "use_cus_css",
+        "type": "checkbox",
+        "label": "Use custom css",
+        "default":false,
+        "info": "If you want custom style for this section."
+      },
+      {
+        "id": "code_cus_css",
+        "type": "textarea",
+        "label": "Code custom css",
+        "info": "Use selector .SectionID to style css"
+
+      }
   ],
   "blocks": [],
   "presets": [
