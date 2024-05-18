@@ -414,6 +414,9 @@
           "bl_col_tVmq93",
           "cus_socials_3WzLGX"
         ],
+        "custom_css": [
+          ".t4s-newsletter__fields{width:100%;}"
+        ],
         "settings": {
           "sticky": false,
           "collapse": false,
