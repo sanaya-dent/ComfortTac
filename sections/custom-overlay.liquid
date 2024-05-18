@@ -2,10 +2,9 @@
   assign sid = section.id 
   assign t4s_se_class = 't4s_nt_se_' | append: sid
   
-  if se_stts.use_cus_css and se_stts.code_cus_css != blank
-    render 'se_cus_css', code_cus_css: se_stts.code_cus_css, t4s_se_class: t4s_se_class
+  if section.settings.use_cus_css and section.settings.code_cus_css != blank
+    render 'se_cus_css', code_cus_css: section.settings.code_cus_css, t4s_se_class: t4s_se_class
   endif
-  
  -%}
 <div class="overlay-container">
   <img src="{{ section.settings.desktop_image | image_url }}" class="desktop overlay-image">
