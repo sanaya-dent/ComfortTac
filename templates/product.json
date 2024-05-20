@@ -230,8 +230,7 @@
           "settings": {
             "title": "KEY FEATURES",
             "content": "{{ product.metafields.custom.tab_key_features | metafield_tag }}",
-            "page": "",
-            "tab-img-url": "shopify:\/\/shop_images\/download_39.jpg"
+            "page": ""
           }
         },
         "tab_html_naUqDf": {
