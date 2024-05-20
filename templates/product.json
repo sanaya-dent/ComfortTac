@@ -302,7 +302,7 @@
         "tab_html_gnhVpi"
       ],
       "custom_css": [
-        ".t4s-tab-wrapper {font-weight: 500; margin-bottom: 50px;}"
+        ".t4s-tab-wrapper {font-weight: 500; margin-bottom: 10px;}"
       ],
       "settings": {
         "pr_layout": "default",
