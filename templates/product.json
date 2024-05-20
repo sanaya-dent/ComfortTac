@@ -230,7 +230,8 @@
           "settings": {
             "title": "KEY FEATURES",
             "content": "{{ product.metafields.custom.tab_key_features | metafield_tag }}",
-            "page": ""
+            "page": "",
+            "tab-img-url": "shopify:\/\/shop_images\/download_39.jpg"
           }
         },
         "tab_html_naUqDf": {
@@ -246,7 +247,8 @@
           "settings": {
             "title": "SIZING CHART",
             "content": "",
-            "page": ""
+            "page": "",
+            "tab-img-url": "{{ product.metafields.custom.tab_sizing_chart.value }}"
           }
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
