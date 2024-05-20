@@ -203,7 +203,8 @@ assign listTyCurent2 = '' -%}
                 <a id="t44_{{ bk_id }}" href="#{{ tab_id }}" rel="nofollow" class="t4s-tab__title t4s-fwm t4s-ch" data-t4s-tab-item data-no-instant><span class="t4s-tab__text">{{ bk_title | escape }}</span><span class="t4s-tab__icon" role="presentation"></span></a>
                 <div id="{{ tab_id }}" class="t4s-rte t4s-tab-content{{ class_first_tab }}" data-t4s-tab-content>
                   {{ bk_stts.content }}
-                  {{ bk_stts.page.content }}
+                  {{ bk_stts.page.content 
+                  {{ 'bk_stts.tab_sizing_chart'| file_img_url | image_tag }}
                 </div>
              </div>
              {%- assign forloop_first = false %}{% assign isEmty = false -%}
