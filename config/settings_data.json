@@ -22,8 +22,8 @@
     "secondary_color": "#0b0f0e",
     "price_primary": "#323e48",
     "price_secondary": "#1d9e34",
-    "link_color": "#0b0f0e",
-    "link_color_hover": "#0b0f0e",
+    "link_color": "#ffffff",
+    "link_color_hover": "#cc2330",
     "btn_bg": "#be7332",
     "btn_color": "#0b0f0e",
     "cl_lazyload": "#be7332",
@@ -415,7 +415,7 @@
           "cus_socials_3WzLGX"
         ],
         "custom_css": [
-          ".t4s-newsletter__fields{width:100%;}"
+          ".t4s-newsletter__fields {width: 100%;}"
         ],
         "settings": {
           "sticky": false,
@@ -2167,11 +2167,11 @@
           "cl_hc": "#ffffff",
           "sticky_header": true,
           "scroll_header": true,
-          "bgnavst": "#9dd6d1",
+          "bgnavst": "#333",
           "opnavst": 100,
           "clnavst": "#ffffff",
-          "clnavst_hover": "#56cfe1",
-          "clseast": "#56cfe1",
+          "clnavst_hover": "#cc2330",
+          "clseast": "#cc2330",
           "transparent_header": false,
           "space_transparent_header": false,
           "bgnavtr": "#000000",
