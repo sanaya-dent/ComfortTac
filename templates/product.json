@@ -139,7 +139,7 @@
             "btn_txt": "3",
             "btn_icon": false,
             "button_style": "default",
-            "button_color": "custom1",
+            "button_color": "primary",
             "button_effect": "sweep-to-top",
             "wishlist_color": "#282973",
             "wishlist_color_hover": "#ffffff",
