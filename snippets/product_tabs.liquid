@@ -198,7 +198,7 @@ assign listTyCurent2 = '' -%}
              </div>
              {%- assign forloop_first = false %}{% assign isEmty = false -%}
 
-            {%- when 'tab_html' %}{% assign bk_title =  bk_stts.title | default: bk_stts.page.title %}{%- if bk_title == blank or bk_stts.page.content == blank and bk_stts.content == blank %}{% continue %}{% endif -%}
+            {%- when 'tab_html' %}{% assign bk_title =  bk_stts.title | default: bk_stts.page.title %}{%- if bk_title == blank or bk_stts.page.content == blank and bk_stts.content == blank and bk_stts.tab-img-url == blank %}{% continue %}{% endif -%}
               <div class="t4s-tab-wrapper{{ class_first_tab }}" data-t4s-tab-wrapper>
                 <a id="t44_{{ bk_id }}" href="#{{ tab_id }}" rel="nofollow" class="t4s-tab__title t4s-fwm t4s-ch" data-t4s-tab-item data-no-instant><span class="t4s-tab__text">{{ bk_title | escape }}</span><span class="t4s-tab__icon" role="presentation"></span></a>
                 <div id="{{ tab_id }}" class="t4s-rte t4s-tab-content{{ class_first_tab }}" data-t4s-tab-content>
