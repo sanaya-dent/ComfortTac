@@ -212,8 +212,41 @@
         },
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8": {
           "type": "tab_des",
+          "disabled": true,
           "settings": {
             "title": "Description"
+          }
+        },
+        "tab_html_8EP3z9": {
+          "type": "tab_html",
+          "settings": {
+            "title": "DESCRIPTION",
+            "content": "{{ product.metafields.custom.tab_description | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_html_NPT9gd": {
+          "type": "tab_html",
+          "settings": {
+            "title": "KEY FEATURES",
+            "content": "{{ product.metafields.custom.tab_key_features | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_html_naUqDf": {
+          "type": "tab_html",
+          "settings": {
+            "title": "GUN COMPATIBILITY",
+            "content": "{{ product.metafields.custom.tab_gun_compatibility | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_html_w3U8Fh": {
+          "type": "tab_html",
+          "settings": {
+            "title": "SIZING CHART",
+            "content": "",
+            "page": ""
           }
         },
         "94011ade-ec25-4d68-b37a-70660ede49dd": {
@@ -259,6 +292,10 @@
         "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
+        "tab_html_8EP3z9",
+        "tab_html_NPT9gd",
+        "tab_html_naUqDf",
+        "tab_html_w3U8Fh",
         "94011ade-ec25-4d68-b37a-70660ede49dd",
         "tab_html_gnhVpi"
       ],
