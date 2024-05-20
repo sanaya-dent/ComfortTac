@@ -204,7 +204,7 @@ assign listTyCurent2 = '' -%}
                 <div id="{{ tab_id }}" class="t4s-rte t4s-tab-content{{ class_first_tab }}" data-t4s-tab-content>
                   {{ bk_stts.content }}
                   {{ bk_stts.page.content }}
-                 <img src="{{ bk_stts.tab-img-url | asset_url}}" >
+                 <img src="{{ bk_stts.tab-img-url | asset_img_url }}" >
                 </div>
              </div>
              {%- assign forloop_first = false %}{% assign isEmty = false -%}
