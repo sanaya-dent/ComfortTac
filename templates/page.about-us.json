@@ -122,7 +122,9 @@
         "desktop_image": "shopify:\/\/shop_images\/download_25.jpg",
         "mobile_image": "shopify:\/\/shop_images\/download_24.jpg",
         "btn_clr": "",
-        "btn_hov_clr": ""
+        "btn_hov_clr": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "custom_overlay_3RMJMm": {
@@ -136,7 +138,9 @@
         "desktop_image": "shopify:\/\/shop_images\/download_26.jpg",
         "mobile_image": "shopify:\/\/shop_images\/download_28.jpg",
         "btn_clr": "",
-        "btn_hov_clr": ""
+        "btn_hov_clr": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "iconbox_CRmt9w": {
@@ -323,7 +327,9 @@
         "desktop_image": "shopify:\/\/shop_images\/download.webp",
         "mobile_image": "shopify:\/\/shop_images\/download_29.jpg",
         "btn_clr": "",
-        "btn_hov_clr": ""
+        "btn_hov_clr": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
       }
     },
     "top_heading_4BbAat": {
@@ -343,7 +349,7 @@
         "design_heading": "1",
         "heading_align": "t4s-text-center",
         "layout": "t4s-container-wrap",
-        "cl_bg": "#212121",
+        "cl_bg": "#ffffff",
         "cl_bg_gradient": "",
         "mg": "",
         "pd": "50px,0,30px,0",
@@ -368,7 +374,7 @@
         "opinew_product_reviews_app_carousel_kg6DTD"
       ],
       "custom_css": [
-        "{background: #212121;}"
+        "{margin-bottom: 50px;}"
       ],
       "settings": {
       }
