@@ -317,6 +317,9 @@
     },
     "custom_overlay_rTdwJm": {
       "type": "custom-overlay",
+      "custom_css": [
+        "button{font-size: 20px; padding: 10px 40px;}"
+      ],
       "settings": {
         "heading": "AMAZON BEST SELLER",
         "content": "<p>The ComfortTac Gun Holster Belly Band is an Amazon #1 Best Seller. Take a look and discover all the incredible, comfortable<a href=\"https:\/\/comforttac.com\/\">products <\/a>we<a href=\"https:\/\/comforttac.com\/\">offer<\/a>!  <\/p>",
