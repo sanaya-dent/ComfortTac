@@ -47,15 +47,73 @@ t4sp-theme t4s-wrapper__{{ settings.general_layout }} rtl_{{ isRTL }} swatch_col
   window._naiveObserverX=new MutationObserver(e=>{e.forEach(({addedNodes:e})=>{e.forEach(e=>{if(1!==e.nodeType||"SCRIPT"!==e.tagName||e.getAttribute("delayOnce"))"IFRAME"==e.tagName&&(verbose&&console.log("PROBLEMATIC",e),e.setAttribute("loading","lazy"));else if(e.innerHTML.includes("asyncLoad")&&!e.innerHTML.includes("_naiveObserverX"))verbose&&console.log(1122,e),e.innerHTML=e.innerHTML.replace("if(window.attachEvent)","document.addEventListener('asyncLazyLoad',function(event){asyncLoad();});if(window.attachEvent)").replaceAll(", asyncLoad",", function(){}");else if(e.src&&(e.src.includes("wpm")||e.src.includes("/gtag")||e.src.includes("/gtm")||e.src.includes("extensions")||e.src.includes("tiktok")||e.src.includes("analytic")||e.src.includes("amped.io")||e.src.includes("optimizely")||e.src.includes("zdassets")||e.src.includes("klaviyo")||e.src.includes("opinew.com"))){var n=e.src;verbose&&console.log("mes",n),e.src="",e.setAttribute("data-src",n),e.setAttribute("type","javascript/oops"),n.includes("adnabu")?(verbose&&console.log("Snicky tracker that affect INP",n),delayLoadTillUserInteraction("waitingroom_"+n+"_order_master",function(){deloadAny(n,{async:!0},"script",0)})):n.includes("/extensions")?n.includes("nbox-chat-loade")||n.includes("shopifyChatV1Widget")?delayLoadTillUserInteraction("waitingroom_"+n+"_order_master",function(){deloadAny(n,{async:!0},"script",2e3)}):delayLoadTillUserInteraction("waitingroom_"+n+"_order_master",function(){deloadAny(n,{},"script",1e3)}):n.includes("proxy")?listenEvento("gtag_load",function(){deloadAny(n,{},"script",1e3)},"",1e3):delayLoadTillUserInteraction("waitingroom_"+n+"_catastrophoc",function(){deloadAny(n,{async:!0})})}else if(e.classList.contains("analytics")||"web-pixels-manager-setup"==e.id||e.classList.contains("boomerang")){var i=e.innerHTML;e.innerHTML="window.he= window.he?1: (window.he+1)",verbose&&console.log(9,e.id,[...e.classList.values()].join(" "),e),delayLoadTillUserInteraction("analaza_monoloxop_"+ctr++,function(){verbose&&console.log("OK");var e=document.createElement("script");e.classList.add("analaza_monoloxop"),e.innerHTML=i,document.body.append(e)})}})})}),window._naiveObserverX.observe(document.documentElement,{childList:1,subtree:1}),delayLoadTillUserInteraction("asyncLoad",function(){var e=new CustomEvent("asyncLazyLoad",{detail:"ok"},!1);window.document.dispatchEvent(e),window._naiveObserverX&&window._naiveObserverX.disconnect(),window._naiveObserverX=null});
 </script>
 {%endif%}
-    <!-- Google Tag Manager -->
-    <script>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-N542VKB');
-    </script>
-    <!-- End Google Tag Manager -->
+ <!-- OneTrust Cookies Consent Notice start for comforttac.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="4dc0877e-dffd-407b-8f0a-e7d5c5506e3a" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for comforttac.com -->
+  <!-- Global site tag (gtag.js) - Google Ads: 1000141751 -->
+<script type="text/plain" class="optanon-category-C0004" async src="https://www.googletagmanager.com/gtag/js?id=AW-1000141751"></script>
+<script type="text/plain" class="optanon-category-C0004">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-1000141751');
+</script>
+  
+  <!-- 	NANIGANS PIXEL THEME -->
+  <script type="text/plain" class="optanon-category-C0004">
+  if (!window.NaN_api) {
+    {% if customer %}
+      NaN_api = [[16, '{{customer.id}}']];
+    {% else %}
+      NaN_api = [[16]];
+    {% endif %}
+    (function() {
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//api.thdtc.com/NaN_tracker.js';
+      var h = document.getElementsByTagName('head')[0]; h.appendChild(s);
+    })();
+  }
+{% if request.page_type == "product" %}
+  NaN_api.push([
+    '{{request.page_type}}',
+    '{{product.selected_or_first_available_variant.price | money_without_currency}}',
+    {'sku': '{{product.selected_or_first_available_variant.sku}}'}
+  ]);
+{% elsif request.page_type == "cart" %}
+  nan_item_values = []
+  nan_skus = []
+  nan_qty = []
+  {% for line_item in cart.items %}
+    nan_item_values.push('{{ line_item.final_line_price | money_without_currency}}')
+    nan_skus.push('{{ line_item.sku }}')
+    nan_qty.push('{{ line_item.quantity }}')
+  {% endfor %}
+  NaN_api.push([
+    '{{request.page_type}}',
+    nan_item_values,
+    {'sku': nan_skus, 'qty': nan_qty}
+  ]);
+{% else %}
+  NaN_api.push(['{{request.page_type}}'])
+{% endif %}
+window.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll("button[name='add']").forEach(function(e){
+    e.addEventListener('click', function() {
+      let quantity = document.querySelector("input[name='quantity']")?.value ?? '1'
+      NaN_api.push([
+        'add',
+        '{{product.selected_or_first_available_variant.price | money_without_currency}}',
+        {'sku': '{{product.selected_or_first_available_variant.sku}}', 'qty': quantity}
+      ]);
+    });
+  });
+  document.querySelector("form[action^='/contact'], form[action*='/subscribe']").addEventListener('submit', () => NaN_api.push(['lead']));
+
+});
+</script>
+<!-- 	END NANIGANS PIXEL -->
     {% comment %}
     {%- render 'ecom_header' -%}
     {% endcomment %}
