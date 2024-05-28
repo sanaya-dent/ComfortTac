@@ -85,11 +85,23 @@
         "sidebar_bdr": 5,
         "sidebar_pd": 10
       }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {
+      }
     }
   },
   "order": [
+    "shogun-helper",
     "heading",
     "main",
-    "sidebar-page"
+    "sidebar-page",
+    "shogun-optimizer"
   ]
 }
