@@ -355,13 +355,37 @@
       "type": "apps",
       "settings": {
       }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {
+      }
     }
   },
   "order": [
+    "shogun-helper",
+    "shogun-above",
     "top",
     "heading_template",
     "main",
     "sidebar",
-    "1697660438e711908b"
+    "1697660438e711908b",
+    "shogun-below",
+    "shogun-optimizer"
   ]
 }
