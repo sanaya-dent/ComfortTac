@@ -88,8 +88,7 @@
        <a
             style="color:black; font-size:14px; text-decoration:underline; margin-left:15px;"
             class="t4s-pr"
-            href="https://shopify.com/69415108905/account"
-            role="button">Sign in
+            href="{{ routes.account_url }}"{% unless customer or request.page_type contains 'customers' or settings.login_side == false %} data-drawer-delay- data-drawer-options='{ "id":"#t4s-login-sidebar" }' {% endunless %} aria-label="Account">Sign in
             <span style="margin-left: 20px; vertical-align: middle;">
               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="25" viewBox="0 0 19 25" fill="none" role="presentation">
                 <path d="M10.4669 23.0647H8.02649C6.54837 23.0647 1 21.643 1 19.9054V15.6329C1 13.8953 2.20937 12.4736 3.68749 12.4736H14.8037C16.2819 12.4736 17.4912 13.8953 17.4912 15.6329V19.9054C17.4912 21.643 11.9429 23.0647 10.4647 23.0647H10.4669Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
