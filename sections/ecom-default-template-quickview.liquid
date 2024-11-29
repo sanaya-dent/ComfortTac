@@ -217,7 +217,7 @@
  {%- when 'vital-reviews'-%}
  <div class="bundle-aggregated_reviews"></div>
  {%- when 'opinew-reviews' -%}
- <div id='opinew-stars-plugin-product'>{% render 'opinew_review_stars_product' product:product %}</div>
+ 
  {%- when 'judgeme' -%}
  <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}'>
  {{ product.metafields.judgeme.badge }}
@@ -266,7 +266,7 @@
  </div>
  </a>
  {%- when 'photo-reviews' -%}
- <div id='opinew-stars-plugin-product'>{% render 'opinew_review_stars_product' product:product %}</div>
+ 
  {%- when 'product-reviews' -%}
  <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
  {%- when 'rivyo' -%}
