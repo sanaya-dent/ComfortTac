@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1646028739ae283905": {
@@ -6,7 +15,7 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-image-example-1.png",
+            "image": "shopify://shop_images/hero-image-example-1.png",
             "image_position": "8",
             "cl_img": "#a4ddd8",
             "link_img1": "",
@@ -119,7 +128,7 @@
           "type": "custom_button",
           "settings": {
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/adhesive-silicone-nipple-covers",
+            "button_link": "shopify://products/adhesive-silicone-nipple-covers",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
@@ -149,8 +158,8 @@
         "image_parent_4a3GzY": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nippies-lift-desktop.jpg",
-            "image_mb": "shopify:\/\/shop_images\/Desktop_Your-Closet-Staples_Lift-copy.jpg",
+            "image": "shopify://shop_images/nippies-lift-desktop.jpg",
+            "image_mb": "shopify://shop_images/Desktop_Your-Closet-Staples_Lift-copy.jpg",
             "image_position": "5",
             "cl_img": "#a4ddd8",
             "link_img1": "",
@@ -263,7 +272,7 @@
           "type": "custom_button",
           "settings": {
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/lifting-nipple-covers",
+            "button_link": "shopify://products/lifting-nipple-covers",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
@@ -354,7 +363,7 @@
         "1_7CqyYY": {
           "type": "1",
           "settings": {
-            "content": "<p>30-Day Money Back Guarantee<\/p>",
+            "content": "<p>30-Day Money Back Guarantee</p>",
             "countdown": "",
             "cus_cd": "",
             "dayx": 0,
@@ -378,7 +387,7 @@
         "1_a4LCta": {
           "type": "1",
           "settings": {
-            "content": "<p>Free & Fast U.S. Shipping*<\/p>",
+            "content": "<p>Free & Fast U.S. Shipping*</p>",
             "countdown": "",
             "cus_cd": "",
             "dayx": 0,
@@ -402,7 +411,7 @@
         "1_3VarLw": {
           "type": "1",
           "settings": {
-            "content": "<p>Easy & Secure Checkout<\/p>",
+            "content": "<p>Easy & Secure Checkout</p>",
             "countdown": "",
             "cus_cd": "",
             "dayx": 0,
@@ -452,7 +461,7 @@
         "top_subheading": "",
         "show_btn": true,
         "shop_all_btn": "VIEW ALL",
-        "shop_all_link": "shopify:\/\/collections\/best-sellers",
+        "shop_all_link": "shopify://collections/best-sellers",
         "tophead_mb": 30,
         "head_btn_label": "View All",
         "head_btn_url": "",
@@ -523,31 +532,31 @@
         "logo_item_EtmDMB": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vogue_1.png",
-            "url": "https:\/\/www.vogue.com\/article\/the-best-backless-bra-and-undergarments",
+            "image": "shopify://shop_images/vogue_1.png",
+            "url": "https://www.vogue.com/article/the-best-backless-bra-and-undergarments",
             "desc": "\"The best nipple covers!\"<br>\n- Vogue"
           }
         },
         "logo_item_8ygqhr": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/press-removebg-preview_7.png",
-            "url": "https:\/\/www.instyle.com\/nippies-nipple-cover-pasties-amazon-review-7551365",
+            "image": "shopify://shop_images/press-removebg-preview_7.png",
+            "url": "https://www.instyle.com/nippies-nipple-cover-pasties-amazon-review-7551365",
             "desc": "\"A total game changer\"<br>\n- InStyle"
           }
         },
         "logo_item_GMJfA8": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/press-removebg-preview_6.png",
-            "url": "https:\/\/www.refinery29.com\/en-us\/no-bra-big-breasts-pasties-essay",
+            "image": "shopify://shop_images/press-removebg-preview_6.png",
+            "url": "https://www.refinery29.com/en-us/no-bra-big-breasts-pasties-essay",
             "desc": "\"B-Six has the best nippies out there! They prevent any and all nip slips!\"<br>\n- Refinery 29"
           }
         },
         "logo_item_Ki7kWP": {
           "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/press-removebg-preview_5.png",
+            "image": "shopify://shop_images/press-removebg-preview_5.png",
             "url": "",
             "desc": "\"Nippies discreetly cover your nipple while giving you the freedom to wear absolutely every kind of top or dress style.\"<br>\n- Marie Claire"
           }
@@ -603,7 +612,7 @@
         "mg_mb": ",,30px,",
         "pd_mb": "50px,,50px,",
         "use_cus_css": true,
-        "code_cus_css": ".SectionID h3::after {\n content: \"\";\n    display: block;\n    width: 10%;\n    height: 1.5px;\n    background-color: black;\n    position: absolute;\n    bottom: -15px;\n    left: 45%;\n}\n@media (max-width:768px){\n.SectionID h3::after {\n  width: 40%;\n  left: 30%;\n}\n.SectionID .t4s-flicky-slider:not(.descslider) .is-selected::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%; bottom:-2px;\n}\n}\n@media (min-width:768px){\n.presslogos .active1::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%;\n bottom:-2px; \n  animation: lineAnimation 20s linear infinite;\n}\n.presslogos .active2::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%;\n bottom:-2px; \nopacity:0;\n  animation: lineAnimation 20s linear infinite 5s;\n}\n.presslogos .active3::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%;\n bottom:-2px; \nopacity:0;\n  animation: lineAnimation 20s linear infinite 10s;\n}\n.presslogos .active4::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%;\n bottom:-2px; \nopacity:0;\n  animation: lineAnimation 20s linear infinite 15s;\n}\n@keyframes lineAnimation {\n  0% {\n    opacity: 1; \/* Start with opacity 1 *\/\n  }\n  20% {\n    opacity: 1; \/* Keep showing for 5 seconds *\/\n  }\n  25% {\n    opacity: 0; \/* Hide for 15 seconds *\/\n  }\n  100% {\n    opacity: 0; \/* Reset at the end *\/\n  }\n}"
+        "code_cus_css": ".SectionID h3::after {\n content: \"\";\n    display: block;\n    width: 10%;\n    height: 1.5px;\n    background-color: black;\n    position: absolute;\n    bottom: -15px;\n    left: 45%;\n}\n@media (max-width:768px){\n.SectionID h3::after {\n  width: 40%;\n  left: 30%;\n}\n.SectionID .t4s-flicky-slider:not(.descslider) .is-selected::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%; bottom:-2px;\n}\n}\n@media (min-width:768px){\n.presslogos .active1::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%;\n bottom:-2px; \n  animation: lineAnimation 20s linear infinite;\n}\n.presslogos .active2::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%;\n bottom:-2px; \nopacity:0;\n  animation: lineAnimation 20s linear infinite 5s;\n}\n.presslogos .active3::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%;\n bottom:-2px; \nopacity:0;\n  animation: lineAnimation 20s linear infinite 10s;\n}\n.presslogos .active4::after{\n content: \"\";\n    display: block;\n    width: 25%;\n    height: 2.5px;\n    background-color: black;\n    position: absolute;\n    left: 40%;\n bottom:-2px; \nopacity:0;\n  animation: lineAnimation 20s linear infinite 15s;\n}\n@keyframes lineAnimation {\n  0% {\n    opacity: 1; /* Start with opacity 1 */\n  }\n  20% {\n    opacity: 1; /* Keep showing for 5 seconds */\n  }\n  25% {\n    opacity: 0; /* Hide for 15 seconds */\n  }\n  100% {\n    opacity: 0; /* Reset at the end */\n  }\n}"
       }
     },
     "image_text_6Dimp4": {
@@ -612,8 +621,8 @@
         "bl_image_qyJNXe": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/B-Six-20220430-_byerikamichelle-nippie_covers-pic2.jpg",
-            "image2": "shopify:\/\/shop_images\/BSX_Nippies_Uplift_Caramel_B0BQPS8Y8W_LP_US_070423_1_34e9474c-36f5-4e29-ab1f-2aa26c121644.jpg",
+            "image1": "shopify://shop_images/B-Six-20220430-_byerikamichelle-nippie_covers-pic2.jpg",
+            "image2": "shopify://shop_images/BSX_Nippies_Uplift_Caramel_B0BQPS8Y8W_LP_US_070423_1_34e9474c-36f5-4e29-ab1f-2aa26c121644.jpg",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "grid",
@@ -647,18 +656,18 @@
             "text_size": "60,18",
             "txt_align": "center",
             "sub_heading": "WASHABLE & REUSABLE",
-            "heading": "<h3>We've got you covered<\/h3>",
+            "heading": "<h3>We've got you covered</h3>",
             "adding_border": false,
-            "countdown": "2023\/12\/26",
+            "countdown": "2023/12/26",
             "txt_day": "days",
             "dayx": 0,
-            "text": "<p>Conceal or reveal exactly what you want with our matte, ultrathin, Invisifeel silicone.<\/p>",
+            "text": "<p>Conceal or reveal exactly what you want with our matte, ultrathin, Invisifeel silicone.</p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
             "use_shadow": false,
             "button_label": "SHOP NIPPIES",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "default",
@@ -706,7 +715,7 @@
             "icon_themes": "none",
             "icon": "",
             "title": "",
-            "text": "<p><strong>Repels ticks, mosquitos, and biting insects<\/strong><\/p>",
+            "text": "<p><strong>Repels ticks, mosquitos, and biting insects</strong></p>",
             "html": ""
           }
         },
@@ -716,7 +725,7 @@
             "icon_themes": "help",
             "icon": "las la-life-ring",
             "title": "",
-            "text": "<p><strong>Customer Satisfaction Guaranteed<\/strong><\/p>",
+            "text": "<p><strong>Customer Satisfaction Guaranteed</strong></p>",
             "html": ""
           }
         },
@@ -726,7 +735,7 @@
             "icon_themes": "refesh",
             "icon": "las la-undo-alt",
             "title": "",
-            "text": "<p><strong>Free shipping on orders $50 & up<\/strong><\/p>",
+            "text": "<p><strong>Free shipping on orders $50 & up</strong></p>",
             "html": ""
           }
         }
@@ -974,10 +983,10 @@
           "settings": {
             "enable_image": true,
             "title": "SCENT ZERO",
-            "text": "<p>Unscented bug spray for when the best scent is none at all<\/p>",
+            "text": "<p>Unscented bug spray for when the best scent is none at all</p>",
             "cl_text": "#ffffff",
             "button_label": "SHOP ZERO",
-            "button_link": "shopify:\/\/collections\/scent-zero-unscented",
+            "button_link": "shopify://collections/scent-zero-unscented",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "default",
@@ -994,10 +1003,10 @@
           "settings": {
             "enable_image": true,
             "title": "RANGER ORANGE",
-            "text": "<p>Base notes of Bergamot, combined with Natural Orange, create a fresh scent.<\/p>",
+            "text": "<p>Base notes of Bergamot, combined with Natural Orange, create a fresh scent.</p>",
             "cl_text": "#ffffff",
             "button_label": "SHOP ORANGE",
-            "button_link": "shopify:\/\/collections\/ranger-orange-scent",
+            "button_link": "shopify://collections/ranger-orange-scent",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "default",
@@ -1014,10 +1023,10 @@
           "settings": {
             "enable_image": true,
             "title": "NIGHT SKY",
-            "text": "<p>Top notes of lavender and lemon complement the sandalwood base, perfect protection for an evening out.<\/p>",
+            "text": "<p>Top notes of lavender and lemon complement the sandalwood base, perfect protection for an evening out.</p>",
             "cl_text": "#ffffff",
             "button_label": "SHOP NIGHT SKY",
-            "button_link": "shopify:\/\/collections\/night-sky-scent",
+            "button_link": "shopify://collections/night-sky-scent",
             "open_link": "_self",
             "btn_icon": false,
             "button_style": "default",
@@ -1073,22 +1082,7 @@
     },
     "17068202832f1c9be2": {
       "type": "apps",
-      "blocks": {
-        "instafeed_app_block_WFVBRD": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "alignment": "center",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_WFVBRD"
-      ],
-      "settings": {
-      }
+      "settings": {}
     },
     "custom_section_igkVaH": {
       "type": "custom-section",
@@ -1183,9 +1177,9 @@
         "testimonial_XkjpaD": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jymmi.webp",
+            "image": "shopify://shop_images/Jymmi.webp",
             "heading": "",
-            "content": "<p>“If you are looking for nipple covers, B-Six Nippies are the best I’ve used by far. I bought the non-adhesive and the adhesive ones, and I LOVE THEM. 15\/10 recommend.”<\/p>",
+            "content": "<p>“If you are looking for nipple covers, B-Six Nippies are the best I’ve used by far. I bought the non-adhesive and the adhesive ones, and I LOVE THEM. 15/10 recommend.”</p>",
             "author": "- Jymmi B.",
             "pos": "",
             "rating": 5
@@ -1194,9 +1188,9 @@
         "testimonial_q8gVby": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Melissa.webp",
+            "image": "shopify://shop_images/Melissa.webp",
             "heading": "",
-            "content": "<p>\"These are a must have product for traveling! B-Six Nippies are a GODSEND in areas with extra humidity. They're perfect for when you have zero interest in spending 20 minutes wrestling with your bra, but want nipple coverage.”<\/p>",
+            "content": "<p>\"These are a must have product for traveling! B-Six Nippies are a GODSEND in areas with extra humidity. They're perfect for when you have zero interest in spending 20 minutes wrestling with your bra, but want nipple coverage.”</p>",
             "author": "- Melissa",
             "pos": "",
             "rating": 5
@@ -1205,9 +1199,9 @@
         "testimonial_aTc6Vz": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Madison.webp",
+            "image": "shopify://shop_images/Madison.webp",
             "heading": "",
-            "content": "<p>\"I keep getting asked about what pasties I use, and the answer is Nippies by B-Six! They come in different colors AND different sizes for coverage (YAY) and are adhesive... They are my absolute favorite and I wear them every time I wear something sheer. These pasties are the best I’ve found.”<\/p>",
+            "content": "<p>\"I keep getting asked about what pasties I use, and the answer is Nippies by B-Six! They come in different colors AND different sizes for coverage (YAY) and are adhesive... They are my absolute favorite and I wear them every time I wear something sheer. These pasties are the best I’ve found.”</p>",
             "author": "- Madison",
             "pos": "",
             "rating": 5
@@ -1216,9 +1210,9 @@
         "testimonial_aEbhpM": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LaurenS.webp",
+            "image": "shopify://shop_images/LaurenS.webp",
             "heading": "",
-            "content": "<p>\"As a proud member of the IBTC (itty bitty titty committee), I basically wear these every day in lieu of an actual bra. I can attest to the lasting adhesion and seamless look beneath clothes.”<\/p>",
+            "content": "<p>\"As a proud member of the IBTC (itty bitty titty committee), I basically wear these every day in lieu of an actual bra. I can attest to the lasting adhesion and seamless look beneath clothes.”</p>",
             "author": "- Lauren",
             "pos": "",
             "rating": 5
@@ -1284,16 +1278,15 @@
       "type": "apps",
       "blocks": {
         "4b552893-116f-4639-b867-53723c99935a": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/all-reviews\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "settings": {
-          }
+          "type": "shopify://apps/opinew-reviews/blocks/all-reviews/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "disabled": true,
+          "settings": {}
         }
       },
       "block_order": [
         "4b552893-116f-4639-b867-53723c99935a"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "7f6dbb86-18ab-4678-82da-9c175a851438": {
       "type": "newsletter",
@@ -1367,7 +1360,7 @@
           "type": "custom_button",
           "settings": {
             "button_text": "CONTACT US",
-            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_link": "shopify://pages/contact-us",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
@@ -1432,7 +1425,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/BSix-As-Retailed-in-Animation_DESKTOP-1_7b6e4e60-7ea9-4be9-a209-a9ce62bb56c1.gif",
+            "image": "shopify://shop_images/BSix-As-Retailed-in-Animation_DESKTOP-1_7b6e4e60-7ea9-4be9-a209-a9ce62bb56c1.gif",
             "title": "",
             "text": "",
             "button_label": "",
@@ -1449,7 +1442,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/BSix-As-Retailed-in-Animation-MOBILE_3e81709a-861f-4b2e-8967-8a9c89a992f0.gif",
+            "image": "shopify://shop_images/BSix-As-Retailed-in-Animation-MOBILE_3e81709a-861f-4b2e-8967-8a9c89a992f0.gif",
             "title": "",
             "text": "",
             "button_label": "",
