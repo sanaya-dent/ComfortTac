@@ -598,7 +598,8 @@
       "blocks": {
         "8a680922-6c51-4cd9-8c1f-48449967dd9f": {
           "type": "shopify://apps/opinew-reviews/blocks/product-widget/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "settings": {}
+          "settings": {},
+          "disabled": true
         }
       },
       "block_order": [
