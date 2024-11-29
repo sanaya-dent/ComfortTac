@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb": {
@@ -38,9 +47,9 @@
           }
         },
         "46f48626-36c1-4c15-85cf-3ae47a93c16e": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-stars\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "settings": {
-          }
+          "type": "shopify://apps/opinew-reviews/blocks/product-stars/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "disabled": true,
+          "settings": {}
         },
         "description": {
           "type": "description",
@@ -97,7 +106,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<div class=\"customrw\"><\/div>"
+            "custom_liquid": "<div class=\"customrw\"></div>"
           }
         },
         "33baad01-228a-4fde-8fb8-5af287b996d8": {
@@ -151,22 +160,18 @@
             "btn_txt2": "3",
             "button_color_payment": "custom1",
             "show_gift_card_recipient": false,
-            "product_list": [
-
-            ],
+            "product_list": [],
             "show_product_current": true,
             "qty_val": "0",
             "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
+            "advance_pr_list": []
           }
         },
         "07bfb470-16c0-49ab-94f8-3c128655bc98": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>SAVE 40% OFF with CODE: 2023DEAL<\/p>"
+            "text": "<p>SAVE 40% OFF with CODE: 2023DEAL</p>"
           }
         },
         "c2e1fa95-5c4d-4f3d-92de-63dbd96ef13e": {
@@ -179,7 +184,7 @@
             "min": 1,
             "max": 100,
             "time": 2,
-            "text": "[count] <span class=\"t4s-fwm\">People<\/span> are viewing this right now"
+            "text": "[count] <span class=\"t4s-fwm\">People</span> are viewing this right now"
           }
         },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
@@ -340,9 +345,7 @@
         "tabs_layout_fix": "full",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
-        "product_list": [
-
-        ],
+        "product_list": [],
         "sticky_mode": "2",
         "sticky_show": "2",
         "sticky_layout_mb": "default",
@@ -421,7 +424,7 @@
             "enable_image": true,
             "counter_val": 30,
             "tagline": "Full-Body Applications",
-            "specs": "<p>100ml | 3.4 oz.<\/p>",
+            "specs": "<p>100ml | 3.4 oz.</p>",
             "title": "Travel Necessity",
             "text": "",
             "button_label": "SHOP NOW",
@@ -440,7 +443,7 @@
             "enable_image": true,
             "counter_val": 45,
             "tagline": "Full-Body Applications",
-            "specs": "<p>150ml | 5.0oz<\/p>",
+            "specs": "<p>150ml | 5.0oz</p>",
             "title": "Ideal For Excursions",
             "text": "",
             "button_label": "SHOP NOW",
@@ -459,7 +462,7 @@
             "enable_image": true,
             "counter_val": 70,
             "tagline": "Full-Body Applications",
-            "specs": "<p>235ml | 8.0oz<\/p>",
+            "specs": "<p>235ml | 8.0oz</p>",
             "title": "Equipped for Daily Use",
             "text": "",
             "button_label": "SHOP NOW",
@@ -478,7 +481,7 @@
             "enable_image": true,
             "counter_val": 230,
             "tagline": "Full-Body Applications",
-            "specs": "<p>710 ml | 24.0 oz<\/p>",
+            "specs": "<p>710 ml | 24.0 oz</p>",
             "title": "For Groups & Businesses",
             "text": "",
             "button_label": "SHOP NOW",
@@ -572,7 +575,7 @@
         "custom_mb": true,
         "height_mb": 250,
         "source": "1",
-        "video_url": "https:\/\/vimeo.com\/577705578",
+        "video_url": "https://vimeo.com/577705578",
         "au_video": false,
         "loop_video": true,
         "bg_overlay": "#000000",
@@ -594,16 +597,14 @@
       "type": "apps",
       "blocks": {
         "8a680922-6c51-4cd9-8c1f-48449967dd9f": {
-          "type": "shopify:\/\/apps\/opinew-product-reviews-app\/blocks\/product-widget\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
-          "settings": {
-          }
+          "type": "shopify://apps/opinew-reviews/blocks/product-widget/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "settings": {}
         }
       },
       "block_order": [
         "8a680922-6c51-4cd9-8c1f-48449967dd9f"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "product-recommendations": {
       "type": "product-recommendations",
@@ -757,7 +758,7 @@
           "settings": {
             "title": "Shipping & Delivery",
             "shipping_1": "las la-truck,FREE SHIPPING,Free shipping for all US order",
-            "shipping_2": "las la-headset,SUPPORT 24\/7,We support 24 hours a day",
+            "shipping_2": "las la-headset,SUPPORT 24/7,We support 24 hours a day",
             "shipping_3": "las la-exchange-alt,30 DAYS RETURN,You have 30 days to return",
             "shipping_4": "",
             "shipping_5": "",
@@ -770,7 +771,7 @@
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
-            "date": "2022\/12\/26",
+            "date": "2022/12/26",
             "content_align": "center",
             "cdt_des": "2",
             "countdown_pos": "2",
@@ -789,7 +790,7 @@
           "disabled": true,
           "settings": {
             "title_cus_html": "Talk about your brand",
-            "text_html": "<p>Get it for 50% off with code SLEEP<\/p>"
+            "text_html": "<p>Get it for 50% off with code SLEEP</p>"
           }
         }
       },
@@ -875,7 +876,7 @@
         "top_subheading": "",
         "show_btn": true,
         "shop_all_btn": "Shop All",
-        "shop_all_link": "shopify:\/\/collections\/all",
+        "shop_all_link": "shopify://collections/all",
         "tophead_mb": 30,
         "head_btn_label": "View All",
         "head_btn_url": "",
@@ -1090,23 +1091,19 @@
     },
     "shogun-above": {
       "type": "shogun-above",
-      "settings": {
-      }
+      "settings": {}
     },
     "shogun-below": {
       "type": "shogun-below",
-      "settings": {
-      }
+      "settings": {}
     },
     "shogun-helper": {
       "type": "shogun-helper",
-      "settings": {
-      }
+      "settings": {}
     },
     "shogun-optimizer": {
       "type": "shogun-optimizer",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
