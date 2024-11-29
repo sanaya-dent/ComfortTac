@@ -131,7 +131,7 @@
            {%- if product.vendor.size > 0 and show_vendor -%}{% if use_link_vendor %}{% assign pr_vendor_handle = product.vendor | handle %}{% assign collection_vendor = collections[pr_vendor_handle] %}{% endif %}<div class="t4s-product-vendor"><a href="{% if use_link_vendor and collection_vendor.url != blank %}{{ collection_vendor.url }}{% else %}{{ product.vendor | url_for_vendor }}{% endif %}">{{ product.vendor }}</a></div>{%- endif -%}
            <h3 class="t4s-product-title"><a data-pr-href href="{{ pr_url }}" class="prlinkasec"  data-proid="{{ product.id }}" data-ptitle='{{ product.title | escape }}' data-vendor="{{ product.vendor }}" data-cat="{{ template.name }}" data-price="{{ product.price }}" data-quantity="1" data-variantname="{{ product.selected_or_first_available_variant.title }}">{{ product.title }}</a></h3>
            {%- if enable_rating %}{%- render 'product-rating', product: product, app_review: app_review -%}{% endif -%}
-           <div class='opinew-stars-plugin-product-list'>{% render 'opinew_review_stars_lists' product:product %}</div>
+           
            {%- render 'product-price', product: product, price_varies_style: price_varies_style, type: 'card', isGrouped: isGrouped -%}
                {% if settings.global_promo_text != blank %}<b style="display:block;color:{{ settings.promo_color }};">{% if product.metafields.global.promo_text != blank %}{{ product.metafields.global.promo_text }}{% else %}{{ settings.global_promo_text }}{% endif %}</b>{% endif %}
           {%- if show_list_btns -%}
