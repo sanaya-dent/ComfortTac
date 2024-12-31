@@ -15,8 +15,8 @@
         "image_parent_4a3GzY": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/download_31.jpg",
-            "image_mb": "shopify://shop_images/download_38.jpg",
+            "image": "shopify:\/\/shop_images\/download_31.jpg",
+            "image_mb": "shopify:\/\/shop_images\/download_38.jpg",
             "image_position": "default",
             "cl_img": "#a4ddd8",
             "link_img1": "",
@@ -129,7 +129,7 @@
           "type": "custom_button",
           "settings": {
             "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/belly-band-holsters",
+            "button_link": "shopify:\/\/collections\/belly-band-holsters",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
@@ -159,8 +159,8 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/download_34.jpg",
-            "image_mb": "shopify://shop_images/download_32.jpg",
+            "image": "shopify:\/\/shop_images\/download_34.jpg",
+            "image_mb": "shopify:\/\/shop_images\/download_32.jpg",
             "image_position": "default",
             "cl_img": "#a4ddd8",
             "link_img1": "",
@@ -249,7 +249,7 @@
           "type": "custom_button",
           "settings": {
             "button_text": "SHOP NOW",
-            "button_link": "shopify://collections/all-products",
+            "button_link": "shopify:\/\/collections\/all-products",
             "target_link": "_self",
             "fontf": "inherit",
             "button_icon_w": 0,
@@ -333,7 +333,7 @@
         "product_MyPgTV": {
           "type": "product",
           "settings": {
-            "link_product": "shopify://products/belly-band-holster-deep-conceal",
+            "link_product": "shopify:\/\/products\/belly-band-holster-deep-conceal",
             "title": "",
             "desc": "",
             "btn_txt": "Shop now",
@@ -343,7 +343,7 @@
         "product_HjVXRU": {
           "type": "product",
           "settings": {
-            "link_product": "shopify://products/ankle-holster",
+            "link_product": "shopify:\/\/products\/ankle-holster",
             "title": "",
             "desc": "",
             "btn_txt": "Shop now",
@@ -363,7 +363,7 @@
         "product_Tq898Q": {
           "type": "product",
           "settings": {
-            "link_product": "shopify://products/fanny-pack-holster",
+            "link_product": "shopify:\/\/products\/fanny-pack-holster",
             "title": "",
             "desc": "",
             "btn_txt": "Shop now",
@@ -443,12 +443,12 @@
       ],
       "settings": {
         "heading": "COMFORTABLE CONCEALED CARRY SOLUTIONS FOR EVERY SITUATION",
-        "content": "<p><strong>After almost a decade of carrying with an uncomfortable holster I got fed up and decided to develop my own holster with one mission, to create the most comfortable and versatile concealed carry holster on the planet. In 2015 my dream was realized and I created The Ultimate Belly Band Holster.</strong></p><p><a href=\"https://comforttac.com/pages/about-comforttac\"><strong>LEARN MORE</strong></a></p>",
+        "content": "<p><strong>After almost a decade of carrying with an uncomfortable holster I got fed up and decided to develop my own holster with one mission, to create the most comfortable and versatile concealed carry holster on the planet. In 2015 my dream was realized and I created The Ultimate Belly Band Holster.<\/strong><\/p><p><a href=\"https:\/\/comforttac.com\/pages\/about-comforttac\"><strong>LEARN MORE<\/strong><\/a><\/p>",
         "btn_text": "",
         "btn_link": "",
         "ch_pos": 50,
-        "desktop_image": "shopify://shop_images/download_37.jpg",
-        "mobile_image": "shopify://shop_images/download_36.jpg",
+        "desktop_image": "shopify:\/\/shop_images\/download_37.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/download_36.jpg",
         "btn_clr": "",
         "btn_hov_clr": "",
         "use_cus_css": true,
@@ -488,7 +488,7 @@
       "type": "apps",
       "blocks": {
         "opinew_product_reviews_app_carousel_V7iehM": {
-          "type": "shopify://apps/opinew-reviews/blocks/carousel/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+          "type": "shopify:\/\/apps\/opinew-reviews\/blocks\/carousel\/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
           "disabled": true,
           "settings": {}
         }
